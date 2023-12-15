@@ -1,0 +1,120 @@
+/* Cleaning standart setting */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Defining some common seetings */
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e1dfdff8;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #f7b600;
+}
+
+a:hover{
+    color: #f7b600;
+    text-decoration: underline;
+}
+
+/* Setting the nav-bar */
+.nav-bar{
+    background:#d5ac0bd5;
+    text-align: center;
+    height: 190px;
+}
+
+.nav-bar span{
+    font-weight: bold;
+    font-size: 3em;
+    position: relative;
+    top: 40px;
+}
+
+.nav-bar a{
+    position: relative;
+    top: 60px;
+    padding: 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.nav-bar a:link{
+    color: white;
+}
+
+.nav-bar a:visited{
+    color: white;
+}
+
+.nav-bar a:hover{
+    background: white;
+    color: #d5ac0bd5;
+}
+
+#titulo1{
+    color: #616367;
+}
+
+#titulo2{
+    color: white;
+}
+
+/* Setting the website main area */
+#area-principal{
+    width: 1600px;
+    margin: 20px auto;
+}
+
+/* Setting the posts area */
+#area-postagens{
+    width: 1200px;
+    float: left;
+    background: #f2f1f1;
+    padding: 20px;
+}
+
+#area-postagens h2{
+    color:#d5ac0bd5;
+    display: inline;
+}
+
+#area-postagens img{
+    width:1200px;
+}
+
+/* Setting the side area */
+#area-lateral{
+    width: 250px;
+    float: right;
+    background: #f2f1f1;
+    padding: 20px;
+}
+
+#area-lateral h2{
+    background: #b7b7b7;
+    color: #535455;
+    padding: 5px;
+}
+
+#categorias a{
+    font-size: 20px;
+}
+
+
+/* Setting the footer */
+#rodape{
+    background: green;
+    clear: both;
+    text-align: center;
+    background: #CCC;
+    padding: 15px;
+}
+
